@@ -30,3 +30,4 @@ client = ClientAI()
 client.send_data()
 
 
+
