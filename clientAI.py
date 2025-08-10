@@ -29,3 +29,4 @@ class ClientAI:
 client = ClientAI()
 client.send_data()
 
+
