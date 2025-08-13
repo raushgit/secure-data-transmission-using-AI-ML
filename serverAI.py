@@ -24,7 +24,7 @@ class ServerAI:
         # Accept connection
         client_socket, addr = server_socket.accept()
         print(f"{addr} is connected.")
-
+     
         # Collect data
         data = []
         try:
@@ -60,6 +60,7 @@ class ServerAI:
 # Create an instance of ServerAI and start the server
 server = ServerAI()
 server.start_server()
+
 
 
 
