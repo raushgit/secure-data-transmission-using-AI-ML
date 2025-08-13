@@ -6,7 +6,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 import time
-
+ 
 
 class ServerAI:
     def __init__(self, host='127.0.0.1', port=12345):
@@ -60,6 +60,7 @@ class ServerAI:
 # Create an instance of ServerAI and start the server
 server = ServerAI()
 server.start_server()
+
 
 
 
