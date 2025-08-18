@@ -1,7 +1,7 @@
 import socket
 import pandas as pd 
 from sklearn.preprocessing import PolynomialFeatures
-from sklearn.linear_model import LinearRegression 
+from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
@@ -60,6 +60,7 @@ class ServerAI:
 # Create an instance of ServerAI and start the server
 server = ServerAI()
 server.start_server()
+
 
 
 
