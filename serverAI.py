@@ -1,5 +1,5 @@
 import socket
-import pandas as pd 
+import pandas as pd
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
@@ -60,6 +60,7 @@ class ServerAI:
 # Create an instance of ServerAI and start the server
 server = ServerAI()
 server.start_server()
+
 
 
 
